@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="timer" id="visible">
+                <p class="time">Time:</p>
+            </div>
+            
+        </div>
+
+        <div class="title">
+            <p>Coding Quiz Challenge</p> <br>
+        </div>
+        <div class="content">
+            <p>Try answer the following code-related questions within
+                the time limit. Keep in mind that incorrect answer will
+                penalize your score/time by ten seconds!
+            </p>
+        </div>
+
+        <div class="start-button">
+            <div class="button">
+            <p>Start</p>
+            <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        </div>
+
+        <div class="quiz-container" id="hide">
+            <p>Q. What is the correct way to declare a variable in JavaScript?</p>
+            <div class="options">
+                <option value="text">a. let myVariable = "Hello";</option>
+                <option value="text">b. var myVariable := "Hello";</option>
+                <option value="text">c. myVariable == "Hello";</option>
+                <option value="text">d. int myVariable = "Hello";</option>
+             </div>
+
+             <div class="submit-btn">
+                <button>Submit</button>
+             </div>
+        </div>
+
+        <div class="quiz-container2" id="hide">
+            <p>Q.What is javascript main used for?</p>
+            <div class="options">
+                <option value="text">a. System Development</option>
+                <option value="text">b. Web Development</option>
+                <option value="text">c. Game Development</option>
+                <option value="text">d. App Development</option>
+             </div>
+
+             <div class="submit-btn2">
+                <button>Submit</button>
+             </div>
+        </div>
+
+        <div class="quiz-container3" id="hide">
+            <p>Q. Which of the following is the correct syntax to create a function in JavaScript?</p>
+            <div class="options">
+                <option value="text">a. function myFunction[] {}</option>
+                <option value="text">b. function myFunction() {}</option>
+                <option value="text">c. def myFunction() {};</option>
+                <option value="text">d. function: myFunction() {}</option>
+             </div>
+
+             <div class="submit-btn3">
+                <button>Submit</button>
+             </div>
+        </div>
+
+        <div class="final-page" id="hide">
+            <h2>All Done!</h2>
+            <p class="final-score">Your final score: </p>
+        </div>
+
+       <div class="footer" id="hide">
+        <hr>
+        <p class="check">Correct!</p>
+       </div>
+    </div>
+    
+
+    <script src="app.js"></script>
+</body>
+</html>

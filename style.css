@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 75%;
+    width: 40%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    height: 50px;
+    padding-left: 7px;
+    padding-right: 5px;
+    background: #7b2cbf;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.modeBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    border-radius: 50%;
+
+}
+.modeBtn i{
+    font-size: 1.2rem;
+    color: white;
+}
+.timer p{
+    font-size: 1.3rem;
+    color: white;
+}
+.title{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title p{
+    font-size: 2rem;
+    padding: 5px;
+    color: black;
+}
+.content{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content p{
+    height: 100%;
+    width: 80%;
+}
+.start-button{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 110px;
+    border-radius: 10px;
+    background: #7b2cbf;
+    color: white;
+    cursor: pointer;
+    transition: .3s all ease;
+}
+.button:hover{
+    background: rgb(88, 16, 82);
+    color: white;
+}
+.button a{
+    margin: 5px;
+    font-size: 1.2rem;
+}
+#hide{
+    display: none;
+}
+#visible{
+    visibility: hidden;
+}
+
+.quiz-container{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container p{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container2{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container2 p{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container3{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.quiz-container3 p{
+    width: 80%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.options{
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px; */
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.options option{
+    width: 70%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    white-space: pre-line;
+    margin-top: 20px;
+    border-radius: 3px;
+    padding: 5px;
+    background-color: #7b2cbf;
+    color: rgb(245, 238, 238);
+    transition: .3s all ease;
+}
+.options option:hover{
+    background: #168638;
+}
+.submit-btn{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.submit-btn button{
+    height: 40px;
+    width: 80px;
+    background: #7b2cbf;
+    cursor: pointer;
+    color: rgb(245, 238, 238);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 23px;
+    transition: .3s all ease;
+}
+.submit-btn button:hover{
+    background: #441070;
+}
+.submit-btn2{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.submit-btn2 button{
+    height: 40px;
+    width: 80px;
+    background: #7b2cbf;
+    cursor: pointer;
+    color: rgb(245, 238, 238);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 23px;
+    transition: .3s all ease;
+}
+.submit-btn2 button:hover{
+    background: #441070;
+}
+.submit-btn3{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+}
+.submit-btn3 button{
+    height: 40px;
+    width: 80px;
+    background: #7b2cbf;
+    cursor: pointer;
+    color: rgb(245, 238, 238);
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    margin-top: 23px;
+    transition: .3s all ease;
+}
+.submit-btn3 button:hover{
+    background: #441070;
+}
+hr{
+    width: 80%;
+    margin-left: 40px;
+}
+.container .check{
+    color: green;
+    font-size: 1.4rem;
+    margin-left: 40px;
+    margin-top: 10px;
+
+}
+#selected{
+    background: #168638;
+}
+.final-page{
+    width: 100%;
+    height: 60%;
+    padding-left: 40px;
+}
+.final-page h2{
+    margin-top: 50px;
+    font-weight: 400;
+}
+.final-page p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.final-page input{
+    width: 60%;
+}
+.final-button{
+    width: 70px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #7b2cbf;
+    color: white;
+    font-size: 1.1rem;
+    margin-top: 20px;
+}
